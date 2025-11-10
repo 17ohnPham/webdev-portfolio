@@ -1,0 +1,3 @@
+Starting off, I copied the work I did in 06-Media-Queries. I had a bit of an issue getting to the website to load the style properly 
+since I had put ref.css before style.css causing it not to work right. To be noted, I did try swapping them initial to see if that would fix the problem
+and it did not work it was only after a couple of tries it would finally load all the styles to match the exercise. No clue why it decided to work on the 5th try (I DID SAVE EVERYTIME I DID IT?!).
