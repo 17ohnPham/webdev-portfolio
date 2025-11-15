@@ -1,3 +1,14 @@
+body {
+  cursor: url('../assets/cursor/Cursor.png'), auto;
+}
+
+a:hover,
+button:hover,
+.btn:hover,
+.nav-link:hover {
+  cursor: url("../assets/cursor/CursorH.png") 0 0, pointer !important;
+}
+
 section {
   min-height: 100vh;
   padding: 80px 0;
