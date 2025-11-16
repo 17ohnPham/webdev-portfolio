@@ -35,6 +35,9 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#work">Work Experience</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
@@ -47,8 +50,22 @@
 
     <section id="home" class="d-flex align-items-center">
       <div class="container text-center">
-        <h1>Welcome</h1>
-        <p>This is my scrolling website.</p>
+        <h1>Hi!</h1>
+        <p>Welcome to my Portfolio Website.</p>
+
+        <div class="mt-4">
+          <img
+            src="assets/face/face.png"
+            alt="Profile Picture"
+            class="rounded-circle img-fluid"
+            style="width: 360px; height: 360px; object-fit: cover"
+          />
+          <h2 class="mt-3">John Pham</h2>
+          <p class="text-muted">
+            Computer Science Graduate Student at Portland State University |
+            Software Engineer
+          </p>
+        </div>
       </div>
     </section>
 
@@ -59,10 +76,109 @@
       </div>
     </section>
 
+    <section id="work">
+      <div class="container text-center">
+        <h2>Resume</h2>
+
+        <iframe
+          src="assets/resume/Resume.pdf"
+          style="width: 100%; height: 650px; border: none; margin-top: 20px"
+        ></iframe>
+
+        <a
+          href="assets/resume/Resume.pdf"
+          class="btn btn-primary mt-3"
+          target="_blank"
+        >
+          Download PDF
+        </a>
+      </div>
+    </section>
+
     <section id="projects" class="d-flex align-items-center">
       <div class="container text-center">
-        <h2>Projects</h2>
-        <p>My projects</p>
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/projects/trimet.png"
+                class="card-img-top"
+                alt="Project 1 image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Trimet Data Pipeline</h5>
+                <p class="card-text">
+                  A TriMet data pipeline collects real-time bus info (GPS
+                  location, arrival predictions, service alerts), processes it
+                  through a streaming system, and stores it in a central
+                  database. The pipeline cleans and normalizes the incoming
+                  data, enriches it with route and schedule information, and
+                  then publishes usable outputs for analytics. This project was
+                  done with a group of 3 other people as part of a Data
+                  Engineering class.
+                </p>
+                <a
+                  href="https://github.com/NhojDev/Trimet_DataPipline"
+                  class="btn btn-primary"
+                  >View on Github</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/projects/Vase2.png"
+                class="card-img-top"
+                alt="Project 2 image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cracked</h5>
+                <p class="card-text">
+                  Cracked is a video game prototype built in Godot, designed by
+                  Naton Cai and John Pham. Cracked is a Smash style PVP game
+                  developed on the theme of smashing vases similar to video
+                  games such as Legend of Zelda. Each player controls a vase,
+                  who's goal is to grab their opponent and throw them against
+                  the walls and floors. When a vase breaks, they spew out a
+                  number of gems that can be picked up.
+                </p>
+                <a
+                  href="https://github.com/Naton-Cai/Cracked"
+                  class="btn btn-primary"
+                  >View on Github</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="assets/projects/rfk.PNG"
+                class="card-img-top"
+                alt="Project 3 image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project Three</h5>
+                <p class="card-text">
+                  A take on the classic RobotFindsKitten which involves adding
+                  multiple features to create an air of mystery to the original
+                  game. Main feature is the fog of war which surrounds the
+                  player character to invoke a sense of exploration.
+                </p>
+                <a
+                  href="https://github.com/NhojDev/RobotFindsKitten"
+                  class="btn btn-primary"
+                  >View on Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

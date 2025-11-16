@@ -22,10 +22,34 @@ section {
   background: #e9ecef;
 }
 
-#projects {
+#work {
   background: #dee2e6;
 }
 
-#contact {
+#projects {
   background: #ced4da;
 }
+
+#contact {
+  background: #bbc3ca;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn {
+  margin-top: auto;
+}
+
+.card-img-top {
+  height: 180px;        
+  object-fit: cover;    
+  width: 100%;          
+  border-top-left-radius: 0.5rem; 
+  border-top-right-radius: 0.5rem;
+}
+
+
+
