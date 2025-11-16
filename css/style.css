@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'PixelFont';
+  src: url('../assets/font/pixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, li, button {
+  font-family: 'PixelFont', monospace;
+}
+
 body {
   cursor: url('../assets/cursor/Cursor.png'), auto;
 }
@@ -50,6 +61,5 @@ section {
   border-top-left-radius: 0.5rem; 
   border-top-right-radius: 0.5rem;
 }
-
 
 
