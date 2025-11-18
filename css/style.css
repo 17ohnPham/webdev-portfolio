@@ -33,6 +33,10 @@ section {
   background: #e9ecef;
 }
 
+#about p {
+  font-size: 1.35rem;
+}
+
 #work {
   background: #dee2e6;
 }
